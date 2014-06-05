@@ -10,7 +10,7 @@ dataSmall$Moment<-as.POSIXct(paste(dataSmall$Date, dataSmall$Time), format="%d/%
 
 # Open graphics device and plot the figures
 
-png('/Users/anoukpost/Documents/Coursera/Exploratory_Data_Analysis/figure/plot4.png',width=480,height=480)
+png('/Users/anoukpost/Documents/Coursera/ExData_Plotting1/figure/plot4.png',width=480,height=480)
 par(mfcol = c(2, 2))
 plot(dataSmall$Global_active_power~dataSmall$Moment,type='l',ylab='Global Active Power (kilowatts)',xlab='')
 

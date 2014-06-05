@@ -10,7 +10,7 @@ dataSmall$Moment<-as.POSIXct(paste(dataSmall$Date, dataSmall$Time), format="%d/%
 
 # Open graphics device and plot the figure
 
-png('/Users/anoukpost/Documents/Coursera/Exploratory_Data_Analysis/figure/plot3.png',width=480,height=480)
+png('/Users/anoukpost/Documents/Coursera/ExData_Plotting1/figure/plot3.png',width=480,height=480)
 plot(dataSmall$Sub_metering_1~dataSmall$Moment,col='black',
      type='l',ylab='Energy sub metering',xlab='')
 lines(dataSmall$Sub_metering_2~dataSmall$Moment,col='red')
